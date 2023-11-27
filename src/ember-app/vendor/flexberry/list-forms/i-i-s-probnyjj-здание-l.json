@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-probnyjj-здание-e",
+  "editForm": "i-i-s-probnyjj-здание-e",
+  "external": false,
+  "caption": "Здание",
+  "name": "IISProbnyjjЗданиеL",
+  "className": "ЗданиеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-probnyjj-здание",
+      "modelProjection": "ЗданиеL"
+    }
+  ]
+}
