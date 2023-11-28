@@ -4,9 +4,9 @@
   "items": [
     {
       "link": null,
-      "menuName": "probnyjj",
-      "caption": "Probnyjj",
-      "title": "Probnyjj",
+      "menuName": "проба",
+      "caption": "Проба",
+      "title": "Проба",
       "children": [
         {
           "link": "i-i-s-probnyjj-город-l",
@@ -21,6 +21,36 @@
           "caption": "Здание",
           "title": "",
           "children": null
+        },
+        {
+          "link": null,
+          "menuName": "new-город",
+          "caption": "NewГород",
+          "title": "NewГород",
+          "children": [
+            {
+              "link": "i-i-s-probnyjj-город-l",
+              "menuName": null,
+              "caption": "ГородL",
+              "title": "Город",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "new-здание",
+          "caption": "NewЗдание",
+          "title": "NewЗдание",
+          "children": [
+            {
+              "link": "i-i-s-probnyjj-здание-l",
+              "menuName": null,
+              "caption": "ЗданиеL",
+              "title": "Здание",
+              "children": null
+            }
+          ]
         }
       ]
     }

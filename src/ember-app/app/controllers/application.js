@@ -22,20 +22,41 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.probnyjj.caption'),
-          title: i18n.t('forms.application.sitemap.probnyjj.title'),
+          caption: i18n.t('forms.application.sitemap.проба.caption'),
+          title: i18n.t('forms.application.sitemap.проба.title'),
           children: [{
             link: 'i-i-s-probnyjj-город-l',
-            caption: i18n.t('forms.application.sitemap.probnyjj.i-i-s-probnyjj-город-l.caption'),
-            title: i18n.t('forms.application.sitemap.probnyjj.i-i-s-probnyjj-город-l.title'),
-            icon: 'building',
+            caption: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-город-l.caption'),
+            title: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-город-l.title'),
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-probnyjj-здание-l',
-            caption: i18n.t('forms.application.sitemap.probnyjj.i-i-s-probnyjj-здание-l.caption'),
-            title: i18n.t('forms.application.sitemap.probnyjj.i-i-s-probnyjj-здание-l.title'),
-            icon: 'address card',
+            caption: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-здание-l.caption'),
+            title: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-здание-l.title'),
+            icon: 'tasks',
             children: null
+          }, {
+            link: null,
+            caption: i18n.t('forms.application.sitemap.проба.new-город.caption'),
+            title: i18n.t('forms.application.sitemap.проба.new-город.title'),
+            children: [{
+              link: 'i-i-s-probnyjj-город-l',
+              caption: i18n.t('forms.application.sitemap.проба.new-город.i-i-s-probnyjj-город-l.caption'),
+              title: i18n.t('forms.application.sitemap.проба.new-город.i-i-s-probnyjj-город-l.title'),
+              children: null
+            }]
+          }, {
+            link: null,
+            caption: i18n.t('forms.application.sitemap.проба.new-здание.caption'),
+            title: i18n.t('forms.application.sitemap.проба.new-здание.title'),
+            children: [{
+              link: 'i-i-s-probnyjj-здание-l',
+              caption: i18n.t('forms.application.sitemap.проба.new-здание.i-i-s-probnyjj-здание-l.caption'),
+              title: i18n.t('forms.application.sitemap.проба.new-здание.i-i-s-probnyjj-здание-l.title'),
+              icon: 'tags',
+              children: null
+            }]
           }]
         }
       ]

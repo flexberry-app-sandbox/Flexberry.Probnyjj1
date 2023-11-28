@@ -80,6 +80,34 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        проба: {
+          caption: 'Проба',
+          title: 'Проба',
+          'i-i-s-probnyjj-город-l': {
+            caption: 'Город',
+            title: ''
+          },
+          'i-i-s-probnyjj-здание-l': {
+            caption: 'Здание',
+            title: ''
+          },
+          'new-город': {
+            caption: 'NewГород',
+            title: 'NewГород',
+            'i-i-s-probnyjj-город-l': {
+              caption: 'ГородL',
+              title: 'Город'
+            }
+          },
+          'new-здание': {
+            caption: 'NewЗдание',
+            title: 'NewЗдание',
+            'i-i-s-probnyjj-здание-l': {
+              caption: 'ЗданиеL',
+              title: 'Здание'
+            }
+          }
+        },
         probnyjj: {
           caption: 'Probnyjj',
           title: 'Probnyjj',
