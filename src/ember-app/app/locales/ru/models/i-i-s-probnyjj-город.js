@@ -18,6 +18,9 @@ export default {
     }
   },
   validations: {
+    год: {
+      __caption__: 'год'
+    },
     наименование: {
       __caption__: 'Наименование'
     },

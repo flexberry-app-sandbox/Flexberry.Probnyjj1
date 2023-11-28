@@ -9,6 +9,8 @@ moduleForModel('i-i-s-probnyjj-город', 'Unit | Serializer | i-i-s-probnyjj-
     'transform:decimal',
     'transform:guid',
 
+    'transform:i-i-s-probnyjj-год',
+
     'model:i-i-s-probnyjj-город',
     'model:i-i-s-probnyjj-здание',
     'validator:ds-error',

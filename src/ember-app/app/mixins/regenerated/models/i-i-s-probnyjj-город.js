@@ -5,11 +5,18 @@ import { validator } from 'ember-cp-validations';
 import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes';
 
 export let Model = Mixin.create({
+  год: DS.attr('i-i-s-probnyjj-год'),
   наименование: DS.attr('string'),
   площадь: DS.attr('number')
 });
 
 export let ValidationRules = {
+  год: {
+    descriptionKey: 'models.i-i-s-probnyjj-город.validations.год.__caption__',
+    validators: [
+      validator('ds-error'),
+    ],
+  },
   наименование: {
     descriptionKey: 'models.i-i-s-probnyjj-город.validations.наименование.__caption__',
     validators: [

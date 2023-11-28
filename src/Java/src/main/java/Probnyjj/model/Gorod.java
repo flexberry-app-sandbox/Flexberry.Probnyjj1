@@ -27,6 +27,9 @@ public class Gorod {
     @Column(name = "Площадь")
     private Integer площадь;
 
+    @Column(name = "Год")
+    private String год;
+
 
     public Gorod() {
         super();
@@ -54,6 +57,14 @@ public class Gorod {
 
     public void setПлощадь(Integer площадь) {
       this.площадь = площадь;
+    }
+
+    public String getГод() {
+      return год;
+    }
+
+    public void setГод(String год) {
+      this.год = год;
     }
 
 

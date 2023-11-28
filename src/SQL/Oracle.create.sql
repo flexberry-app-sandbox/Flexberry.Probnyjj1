@@ -11,6 +11,8 @@ CREATE TABLE "Город"
 
 	"Площадь" NUMBER(10) NULL,
 
+	"Год" NVARCHAR2(4) NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 

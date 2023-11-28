@@ -6,6 +6,8 @@ CREATE TABLE [Город] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
+	 [Год] VARCHAR(4)  NULL,
+
 	 [Наименование] VARCHAR(255)  NULL,
 
 	 [Площадь] INT  NULL,

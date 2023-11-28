@@ -7,6 +7,15 @@
   "parentClassName": null,
   "attrs": [
     {
+      "name": "год",
+      "type": "i-i-s-probnyjj-год",
+      "flexberryType": "Год",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
       "name": "наименование",
       "type": "string",
       "flexberryType": "string",

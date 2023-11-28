@@ -41,10 +41,43 @@ namespace IIS.Probnyjj
         
         private int fПлощадь;
         
+        private IIS.Probnyjj.Год fГод;
+        
         // *** Start programmer edit section *** (Город CustomMembers)
 
         // *** End programmer edit section *** (Город CustomMembers)
 
+        
+        /// <summary>
+        /// Год.
+        /// </summary>
+        // *** Start programmer edit section *** (Город.Год CustomAttributes)
+
+        // *** End programmer edit section *** (Город.Год CustomAttributes)
+        public virtual IIS.Probnyjj.Год Год
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Город.Год Get start)
+
+                // *** End programmer edit section *** (Город.Год Get start)
+                IIS.Probnyjj.Год result = this.fГод;
+                // *** Start programmer edit section *** (Город.Год Get end)
+
+                // *** End programmer edit section *** (Город.Год Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Город.Год Set start)
+
+                // *** End programmer edit section *** (Город.Год Set start)
+                this.fГод = value;
+                // *** Start programmer edit section *** (Город.Год Set end)
+
+                // *** End programmer edit section *** (Город.Год Set end)
+            }
+        }
         
         /// <summary>
         /// Наименование.

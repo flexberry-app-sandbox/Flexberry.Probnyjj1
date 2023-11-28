@@ -7,6 +7,7 @@ CREATE TABLE Город (
  primaryKey UUID NOT NULL,
  Наименование VARCHAR(255) NULL,
  Площадь INT NULL,
+ Год VARCHAR(4) NULL,
  PRIMARY KEY (primaryKey));
 
 
