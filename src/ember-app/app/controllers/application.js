@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-probnyjj-город-l',
             caption: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-город-l.caption'),
             title: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-город-l.title'),
-            icon: 'phone',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-probnyjj-здание-l',
             caption: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-здание-l.caption'),
             title: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-здание-l.title'),
-            icon: 'edit',
+            icon: 'suitcase',
             children: null
           }, {
             link: null,
@@ -44,7 +44,7 @@ export default Controller.extend({
               link: 'i-i-s-probnyjj-город-l',
               caption: i18n.t('forms.application.sitemap.проба.new-город.i-i-s-probnyjj-город-l.caption'),
               title: i18n.t('forms.application.sitemap.проба.new-город.i-i-s-probnyjj-город-l.title'),
-              icon: 'folder',
+              icon: 'tags',
               children: null
             }]
           }, {
@@ -55,7 +55,7 @@ export default Controller.extend({
               link: 'i-i-s-probnyjj-здание-l',
               caption: i18n.t('forms.application.sitemap.проба.new-здание.i-i-s-probnyjj-здание-l.caption'),
               title: i18n.t('forms.application.sitemap.проба.new-здание.i-i-s-probnyjj-здание-l.title'),
-              icon: 'table',
+              icon: 'book',
               children: null
             }]
           }]
@@ -68,7 +68,7 @@ export default Controller.extend({
             link: 'i-i-s-probnyjj-город-l',
             caption: i18n.t('forms.application.sitemap.город.i-i-s-probnyjj-город-l.caption'),
             title: i18n.t('forms.application.sitemap.город.i-i-s-probnyjj-город-l.title'),
-            icon: 'book',
+            icon: 'calendar',
             children: null
           }]
         }, {
@@ -80,7 +80,7 @@ export default Controller.extend({
             link: 'i-i-s-probnyjj-здание-l',
             caption: i18n.t('forms.application.sitemap.здание.i-i-s-probnyjj-здание-l.caption'),
             title: i18n.t('forms.application.sitemap.здание.i-i-s-probnyjj-здание-l.title'),
-            icon: 'address card',
+            icon: 'archive',
             children: null
           }]
         }
