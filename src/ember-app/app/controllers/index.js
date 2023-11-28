@@ -22,13 +22,13 @@ export default Controller.extend({
             link: 'i-i-s-probnyjj-город-l',
             caption: i18n.t('forms.application.sitemap.probnyjj.i-i-s-probnyjj-город-l.caption'),
             title: i18n.t('forms.application.sitemap.probnyjj.i-i-s-probnyjj-город-l.title'),
-            icon: 'paperclip',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-probnyjj-здание-l',
             caption: i18n.t('forms.application.sitemap.probnyjj.i-i-s-probnyjj-здание-l.caption'),
             title: i18n.t('forms.application.sitemap.probnyjj.i-i-s-probnyjj-здание-l.title'),
-            icon: 'tags',
+            icon: 'address card',
             children: null
           }]
         }
