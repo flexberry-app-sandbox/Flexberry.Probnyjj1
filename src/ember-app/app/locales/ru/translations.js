@@ -108,6 +108,22 @@ $.extend(true, translations, {
             }
           }
         },
+        город: {
+          caption: 'Город',
+          title: 'Город',
+          'i-i-s-probnyjj-город-l': {
+            caption: 'ГородL',
+            title: 'Город'
+          }
+        },
+        здание: {
+          caption: 'Здание',
+          title: 'Здание',
+          'i-i-s-probnyjj-здание-l': {
+            caption: 'ЗданиеL',
+            title: 'Здание'
+          }
+        },
         probnyjj: {
           caption: 'Probnyjj',
           title: 'Probnyjj',

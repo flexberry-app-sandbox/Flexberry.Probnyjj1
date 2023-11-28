@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-probnyjj-здание-l',
             caption: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-здание-l.caption'),
             title: i18n.t('forms.application.sitemap.проба.i-i-s-probnyjj-здание-l.title'),
-            icon: 'tasks',
+            icon: 'address card',
             children: null
           }, {
             link: null,
@@ -38,6 +38,7 @@ export default Controller.extend({
               link: 'i-i-s-probnyjj-город-l',
               caption: i18n.t('forms.application.sitemap.проба.new-город.i-i-s-probnyjj-город-l.caption'),
               title: i18n.t('forms.application.sitemap.проба.new-город.i-i-s-probnyjj-город-l.title'),
+              icon: 'file',
               children: null
             }]
           }, {
@@ -48,9 +49,33 @@ export default Controller.extend({
               link: 'i-i-s-probnyjj-здание-l',
               caption: i18n.t('forms.application.sitemap.проба.new-здание.i-i-s-probnyjj-здание-l.caption'),
               title: i18n.t('forms.application.sitemap.проба.new-здание.i-i-s-probnyjj-здание-l.title'),
-              icon: 'tags',
+              icon: 'phone',
               children: null
             }]
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.город.caption'),
+          title: i18n.t('forms.application.sitemap.город.title'),
+          children: [{
+            link: 'i-i-s-probnyjj-город-l',
+            caption: i18n.t('forms.application.sitemap.город.i-i-s-probnyjj-город-l.caption'),
+            title: i18n.t('forms.application.sitemap.город.i-i-s-probnyjj-город-l.title'),
+            icon: 'briefcase',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.здание.caption'),
+          title: i18n.t('forms.application.sitemap.здание.title'),
+          children: [{
+            link: 'i-i-s-probnyjj-здание-l',
+            caption: i18n.t('forms.application.sitemap.здание.i-i-s-probnyjj-здание-l.caption'),
+            title: i18n.t('forms.application.sitemap.здание.i-i-s-probnyjj-здание-l.title'),
+            icon: 'tasks',
+            children: null
           }]
         }
       ]
